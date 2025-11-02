@@ -81,7 +81,7 @@ v v
 ##Project Structure
 
 
-
+```bash
 
 Aqua-Track/
 │
@@ -145,6 +145,8 @@ Aqua-Track/
     ├── vercel.json                    # Frontend deployment config
     ├── render.yaml / railway.yaml     # Backend deployment config
     └── github-actions.yml             # CI/CD pipeline setup
+
+```
 
 ## 🧩 Setup Instructions
 
