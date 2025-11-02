@@ -154,37 +154,47 @@ Aqua-Track/
 ```bash
 git clone https://github.com/<your-username>/AquaTrack.git
 cd AquaTrack
-
-####Setup the environment variables
+```
+#### Setup the environment variables
+```bash
 DATABASE_URL=postgresql://postgres:password@localhost:5432/aquatrack
 JWT_SECRET=your_jwt_secret
 NODE_ENV=development
 PORT=5000
+```
 
 
-####Run the backend
 
+#### Run the backend
+
+```bash
 cd backend
 npm install
 npm start
+```
 
-####Run the frontend
+#### Run the frontend
+
+```bash
 cd frontend
 npm install
 npm run dev
 
+```
 
-####Run with the docker
+#### Run with the docker
+```bash
+
 docker-compose up --build
 
+```
 
-
-###🌏 Acknowledgment
+### 🌏 Acknowledgment
 
 Developed for the Smart India Hackathon 2025, under the guidance of
 Central Ground Water Board (CGWB) and Ministry of Jal Shakti, Government of India.
 
 
-###💧 "Sustainable water today ensures life tomorrow."
+### 💧 "Sustainable water today ensures life tomorrow."
 🏗️ System Architecture
 
